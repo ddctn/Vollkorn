@@ -53,11 +53,30 @@ nav li{
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 77px;
+  margin-top: 77px;
 }
 
 .pomol p{
   font-family: 'Vollkorn-Regular';
   font-size: 36px; 
   color: #1E1E1E;
+}
+
+h1{
+  font-family: 'Vollkorn-Medium';
+  font-size: 86px;
+  color: #1E1E1E;
+}
+
+a{
+  color: #1E1E1E;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #353232;
+}
+
+a:active{
+  color: #918682;
 }
