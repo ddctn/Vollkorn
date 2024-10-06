@@ -1,4 +1,8 @@
-@font-face{ 
+@font-face { 
   font-family: 'Vollkorn-Black';
-  src: url(../fonts/Vollkorn-Black)
+  src: url(../fonts/Vollkorn-Black.ttf)
+} 
+@font-face {
+  font-family: 'Vollkorn-BlackItalic';
+  src: url(../fonts/Vollkorn-BlackItalic.ttf)
 }
