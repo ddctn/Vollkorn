@@ -21,29 +21,43 @@ nav li{
 }
 
 .vollkorn1{
-  font-family: 'Vollkorn-SemiBoldItalic';
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 500px;
-  margin-left: 347px;
-  width: Fixed (732px);
-  height: Fixed (120px);
+}
+
+.vollkorn1 p{
+  font-family: 'Vollkorn-SemiBoldItalic';
   color: #1E1E1E;
   font-size: 159px; 
   letter-spacing: 23.85px;
 }
 
 .year{
-  font-family: 'Vollkorn-Regular';
   margin-top: 93px;
-  margin-left: 672px;
-  color: #1E1E1E;
-  font-family: Vollkorn;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.year p{
+  font-family: 'Vollkorn-Regular';
   font-size: 36px; 
-  line-height: 120px; /* 333.333% */
   letter-spacing: 5.4px;
+  color: #1E1E1E;
 }
 
 .pomol{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 77px;
+}
+
+.pomol p{
   font-family: 'Vollkorn-Regular';
-  margin-left: 530px;
   font-size: 36px; 
+  color: #1E1E1E;
 }
