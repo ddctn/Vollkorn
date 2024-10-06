@@ -1,6 +1,5 @@
 html{
   background: #EFE4E0;
-  font-family: Vollkorn;
 }
 
 body{
@@ -8,14 +7,8 @@ body{
   background-color: #EFE4E0;
 }
 
-p{
-  font-size: 26px;
-}
-div{
-  width: 700px;
-}
-
 nav ul{
+  font-family: 'Vollkorn-Regular';
   display: flex;
   color: #1E1E1E;
   font-size: 20px;
@@ -29,6 +22,7 @@ nav li{
 }
 
 .vollkorn1{
+  font-family: 'Vollkorn-SemiBoldItalic';
   margin-top: 500px;
   margin-left: 347px;
   width: Fixed (732px);
@@ -42,6 +36,7 @@ nav li{
 }
 
 .year{
+  font-family: 'Vollkorn-Regular';
   margin-top: 93px;
   margin-left: 672px;
   color: #1E1E1E;
@@ -54,6 +49,7 @@ nav li{
 }
 
 .pomol{
+  font-family: 'Vollkorn-Regular';
   margin-left: 530px;
   font-size: 36px;
   font-style: normal;
