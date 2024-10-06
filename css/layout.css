@@ -1,9 +1,62 @@
 html{
   background: #EFE4E0;
+  font-family: Vollkorn;
 }
 
 body{
   width: 1440px;
   background-color: #EFE4E0;
-  
+}
+
+p{
+  font-size: 26px;
+}
+div{
+  width: 700px;
+}
+
+nav ul{
+  display: flex;
+  color: #1E1E1E;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 139px;
+  margin-top: 24px;
+}
+
+nav li{
+  padding-right: 178px;
+}
+
+.vollkorn1{
+  margin-top: 500px;
+  margin-left: 347px;
+  width: Fixed (732px);
+  height: Fixed (120px);
+  color: #1E1E1E;
+  font-size: 159px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 120px;
+  letter-spacing: 23.85px;
+}
+
+.year{
+  margin-top: 93px;
+  margin-left: 672px;
+  color: #1E1E1E;
+  font-family: Vollkorn;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120px; /* 333.333% */
+  letter-spacing: 5.4px;
+}
+
+.pomol{
+  margin-left: 530px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
