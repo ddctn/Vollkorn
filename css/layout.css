@@ -12,7 +12,6 @@ nav ul{
   display: flex;
   color: #1E1E1E;
   font-size: 20px;
-  font-weight: 400;
   margin-left: 139px;
   margin-top: 24px;
 }
@@ -28,10 +27,7 @@ nav li{
   width: Fixed (732px);
   height: Fixed (120px);
   color: #1E1E1E;
-  font-size: 159px;
-  font-style: italic;
-  font-weight: 600;
-  line-height: 120px;
+  font-size: 159px; 
   letter-spacing: 23.85px;
 }
 
@@ -41,9 +37,7 @@ nav li{
   margin-left: 672px;
   color: #1E1E1E;
   font-family: Vollkorn;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 400;
+  font-size: 36px; 
   line-height: 120px; /* 333.333% */
   letter-spacing: 5.4px;
 }
@@ -51,8 +45,5 @@ nav li{
 .pomol{
   font-family: 'Vollkorn-Regular';
   margin-left: 530px;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  font-size: 36px; 
 }
