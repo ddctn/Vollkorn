@@ -25,6 +25,7 @@ nav li{
   align-items: center;
   justify-content: center;
   margin-top: 500px;
+  position:relative;
 }
 
 .vollkorn1 p{
@@ -34,6 +35,17 @@ nav li{
   letter-spacing: 23.85px;
 }
 
+.coffeepot1{
+  width: 618px;
+  height: 838px;
+  color:#1E1E1E;
+  position: absolute;
+  top: -320px;
+  margin-left: 785px;
+}
+
+
+/*
 .year{
   margin-top: 93px;
   display: flex;
@@ -61,7 +73,7 @@ nav li{
   font-size: 36px; 
   color: #1E1E1E;
 }
-
+*/
 h1{
   font-family: 'Vollkorn-Medium';
   font-size: 86px;
@@ -79,4 +91,12 @@ a:hover{
 
 a:active{
   color: #918682;
+}
+
+
+.historybox{
+  width: 1162px;
+  height: 1410.141px;
+  flex-shrink: 0;
+  margin-left: 140px;
 }
