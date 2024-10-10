@@ -3,9 +3,23 @@ html{
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+background: #EFE4E0;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #1E1E1E;
+}
+
+
+
 body{
   width: 1440px;
-  background-color: #EFE4E0;
 }
 
 nav ul{
@@ -18,7 +32,7 @@ nav ul{
 }
 
 nav li{
-  padding-right: 178px;
+  margin-right: 178px;
 }
 
 .vollkorn1{
