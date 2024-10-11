@@ -11,57 +11,12 @@ html, body{
 }
 
 ::-webkit-scrollbar-track{
-background: #EFE4E0;
+background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background: #252525;
-}
-
-
-nav ul{
-  font-family: 'Vollkorn-Regular';
-  display: flex;
-  color: #252525;
-  font-size: 20px;
-  margin-left: 139px;
-  margin-top: 24px;
-}
-
-nav li{
-  margin-right: 178px;
-}
-
-.vollkorn1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 500px;
-  position:relative;
-}
-
-.vollkorn1 p{
-  font-family: 'Vollkorn-SemiBoldItalic';
-  color: #252525;
-  font-size: 159px; 
-  letter-spacing: 23.85px;
-}
-
-.coffeepot1{
-  width: 618px;
-  height: 838px;
-  color:#252525;
-  position: absolute;
-  top: -320px;
-  margin-left: 785px;
-}
-
-
-h1{
-  font-family: 'Vollkorn-Medium';
-  font-size: 86px;
-  color: #252525;
 }
 
 a{
@@ -77,15 +32,80 @@ a:active{
   color: #918682;
 }
 
-
-.historybox{
-  width: 1162px;
-  height: 1410.141px;
-  flex-shrink: 0;
-  margin-left: 140px;
+nav{
+  width: 100%;
+  height: 66px;
 }
 
-.podval{
+nav ul{
+  font-family: 'Vollkorn-Regular';
+  display: flex;
+  color: #252525;
+  font-size: 20px;
+  margin-left: 139px;
+  margin-top: 24px;
+}
+
+nav li{
+  margin-right: 178px;
+}
+
+.mainpage{
+  width: 100%;
+  height: 958px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.mainpage p{
+  font-family: 'Vollkorn-SemiBold';
+  color: #252525;
+  font-size: 159px; 
+  letter-spacing: 23.85px;
+}
+
+
+h1{
+  font-family: 'Vollkorn-Medium';
+  font-size: 66px;
+  color: #252525;
+}
+
+
+.historybox{
+  width: 100%;
+  height: 1249px;
+}
+
+.feature{
+  width: 100%;
+  height: 1336px;
+}
+
+
+.styles{
+  width: 100%;
+  height: 950px;
+}
+
+.langs{
+  width: 100%;
+  height: 1069px;
+}
+
+.glyphs{
+  width: 100%;
+  height: 1419px;
+}
+
+.license{
+  width: 100%;
+  height: 970px;
+}
+
+footer{
   height: 315px;
   width: 100%;
   background: #252525;
@@ -93,8 +113,3 @@ a:active{
   bottom: 0px;
 }
 
-.logohse{
-  height: 250px;
-  width: 465px;
-  
-}
