@@ -1,17 +1,16 @@
 html, body{
   width: 100%;
-  height: 8542px;
+  height: 8332px;
   background: #EFE4E0;
   scroll-behavior: smooth;
-  position: relative;
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track{
-background: transparent;
+background: transparent; 
 }
 
 ::-webkit-scrollbar-thumb {
@@ -79,6 +78,21 @@ h1{
   height: 1249px;
 }
 
+.history{
+  font-family: 'Vollkorn-MediumItalic';
+  font-size: 96px;
+  margin-left: 687px;
+}
+
+.hist1{
+  width: 314px;
+  height: 187px;
+  margin-left: 150px;
+  margin-top: 179px;
+  color: #252525;
+  font-size: 24px;
+}
+
 .feature{
   width: 100%;
   height: 1336px;
@@ -109,7 +123,5 @@ footer{
   height: 315px;
   width: 100%;
   background: #252525;
-  position: absolute;
-  bottom: 0px;
 }
 
