@@ -99,3 +99,87 @@ h1 {
   background-repeat: no-repeat;
   background-size: 1260px 729px;
 }
+
+.menusection {
+  height: 1314px;
+  width: 1044px;
+  display: flex;
+  position: relative;
+  margin-left: 215px;
+}
+
+.darkmenu {
+  position: absolute; 
+  padding: 59px 0 0 0; 
+}
+
+.lightmenu {
+  position: absolute; 
+  padding: 176px 30px; 
+}
+
+.menuvollk {
+  font-family: 'Vollkorn-Black';
+  font-size: 128px;
+  rotate: 7.56deg;
+  color: #EFE4E0;
+  position: absolute; 
+  padding: 188px 0 0 236.8px;
+}
+
+.menumenu {
+  font-family: 'Vollkorn-Black';
+  font-size: 160px;
+  color: #252525;
+  rotate: -7.21deg;
+  position: absolute;
+  padding: 303.5px 0 0 184px;
+
+}
+
+.menuh1, .menuh2, .menuh3 {
+  font-family: 'Vollkorn-SemiBold';
+  font-size: 60px;
+  color: #252525;
+  rotate: -7.21deg;
+}
+
+.menuh1 {
+  position: absolute;
+  padding: 551px 0 0 192px;
+}
+
+.menuh2 {
+  position: absolute;
+  padding: 531px 0 0 494px;
+}
+
+.menuh3 {
+  position: absolute;
+  padding: 815px 0 0 512px;
+}
+
+.menup1, .menup2, .menup3 {
+  color: #252525;
+  rotate: -7.21deg;
+  font-family: 'Vollkorn-Regular';
+  font-size: 40px;
+}
+
+.menup1 {
+  position: absolute;
+  padding: 621px 0 0 225px;
+  line-height: 56px;
+}
+
+.menup2 {
+  position: absolute;
+  padding: 597px 0 0 506px;
+  line-height: 56px;
+}
+
+.menup3 {
+  position: absolute;
+  padding: 879px 0 0 527px;
+  line-height: 56px;
+}
