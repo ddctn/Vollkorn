@@ -14,6 +14,7 @@ body {
   margin: 0 auto;
   position: relative;
 }
+
 body::after {
   content: '';
   position: absolute;
@@ -23,7 +24,7 @@ body::after {
   width: 1440px;
   height: 14741px;
   opacity: 0.2;
-}
+} 
 
 ::-webkit-scrollbar{
   width: 8px;
@@ -49,6 +50,12 @@ a:hover{
 
 a:active{
   color: #918682;
+}
+
+h2{
+  font-family: 'Vollkorn-Medium';
+  font-size: 128px;
+  color: #252525;
 }
 
 nav {
@@ -183,3 +190,90 @@ h1 {
   padding: 879px 0 0 527px;
   line-height: 56px;
 }
+
+.historysection {
+  height: 1553px;
+  background-image: url(../images/histbox.svg);
+  background-position: top 166px left 213px;
+  background-repeat: no-repeat;
+  background-size: 1013px 1292px;
+  padding: 108px 0 0 212px;
+  display: flex;
+}
+
+.histh {
+  margin-top: 369px;
+  margin-left: -728px;
+}
+
+.historysection img {
+  position: relative;
+  height: 285px;
+  width: 256.3px; 
+  margin-top: 91px;
+  margin-left: 721px;
+}
+
+.histp2, .histp3, .histp4 {
+  font-family: 'Vollkorn-Regular';
+  font-size: 32px;
+  line-height: 32px;
+  color: #252525;
+}
+
+.histp1 {
+  position: absolute;
+  color: #252525;
+  font-family: 'Vollkorn-Regular';
+  font-size: 64px;
+  line-height: 45px;  
+  margin: 190px 0 0 -247px;
+  text-align: center;
+}
+
+.histp2 {
+  margin: 585px 0 0 -514px;
+}
+
+.histp3 {
+  margin: 834px 0 0 -488px;
+}
+
+.histp4 {
+  margin: 973px 0 0 -521px;
+}
+
+.featuresection {
+  height: 2852px;
+}
+
+.fh {
+  padding: 39px 0px 100px 327px;
+}
+
+.fdiv {
+  display: flex;
+  position: relative;
+}
+
+.boxstroke1 {
+  margin: -661px 0px 0px 842px;
+}
+
+.boxstroke2 {
+  margin: 672px 0 0 -1143px;
+}
+
+.cupstroke1 {
+  margin: -1974px 0 0 -484px;
+}
+
+.cupstroke2 {
+  margin: 1974px 0 0 171px;
+}
+
+.lettersdiv {
+  position: absolute;
+  display: grid;
+}
+
