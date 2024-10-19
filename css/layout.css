@@ -1,11 +1,31 @@
-html, body{
-  width: 100%;
-  height: 11981px;
+* {
+  box-sizing: border-box;
+}
+
+html {
   background: #EFE4E0;
   scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar {
+body {
+  width: 1440px;
+  background: #EFE4E0;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+body::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../images/maket.svg);
+  width: 1440px;
+  height: 14741px;
+  opacity: 0.2;
+}
+
+::-webkit-scrollbar{
   width: 8px;
 }
 
@@ -13,7 +33,7 @@ html, body{
 background: transparent; 
 }
 
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb{
   border-radius: 10px;
   background: #252525;
 }
@@ -31,101 +51,51 @@ a:active{
   color: #918682;
 }
 
-nav{
-  width: 100%;
+nav {
+  width: 1440px;
   height: 78px;
 }
 
-nav ul{
+nav ul {
   font-family: 'Vollkorn-Regular';
   display: flex;
   color: #252525;
   font-size: 20px;
   margin-left: 139px;
-  margin-top: 24px;
 }
 
-nav li{
+nav li {
   margin-right: 178px;
+  margin-top: 29px;
 }
 
-.mainpage{
-  width: 100%;
-  height: 848px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+h1 {
+  font-family: 'Vollkorn-ExtraBoldItalic';
+  font-size: 180px;
+  padding: 0 241px;
+  margin-top: -4px;
+  color: #EFE4E0;
 }
 
-.mainpage p{
-
-}
-
-.menusec{
-  height: 1859px;
-  background: #252525;
-}
-
-
-h1{
+.mainsectiontext {
+  padding: 298px 254px 0;
+  font-size: 89px;
   font-family: 'Vollkorn-Medium';
-  font-size: 66px;
-  color: #252525;
-}
+  color: #EFE4E0;
+} 
 
-
-.historybox{
-  width: 100%;
-  height: 1295px;
-}
-
-.history{
-  font-family: 'Vollkorn-MediumItalic';
-  font-size: 96px;
-  margin-left: 687px;
-}
-
-.histboximg{
-  margin-left: 138px;
-}
-
-.hist1{
-  width: 314px;
-  height: 187px;
-  margin-left: 150px;
-  margin-top: 179px;
-  color: #252525;
+.mainsectiontext2 {
   font-size: 24px;
+  color: #EFE4E0;
+  font-family: 'Vollkorn-Regular';
+  padding: 0 0 0 452px;
+  margin-top: -21px;
 }
 
-.feature{
-  width: 100%;
-  height: 2279px;
+.mainsection {
+  height: 848px;
+  background-image: url(../images/mainbox.svg);
+  background-position: top 76px left 90px;
+  background-repeat: no-repeat;
+  background-size: 1260px 729px;
 }
-
-.langs{
-  width: 100%;
-  height: 1142px;
-}
-
-.styles{
-  width: 100%;
-  height: 1069px;
-}
-.glyphs{
-  width: 100%;
-  height: 1288px;
-}
-
-.license{
-  width: 100%;
-  height: 1519px;
-}
-
-footer{
-  height: 606px;
-  width: 100%;
-  background: #252525;
-}
-
