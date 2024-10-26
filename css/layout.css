@@ -21,8 +21,9 @@ body::after {
   top: 0;
   left: 0;
   background-image: url(../images/maket.svg);
+  background-repeat: no-repeat;
   width: 1440px;
-  height: 14741px;
+  height: 13560px;
   opacity: 0.2;
 } 
 
@@ -80,12 +81,12 @@ h1 {
   font-family: 'Vollkorn-ExtraBoldItalic';
   font-size: 180px;
   padding: 0 241px;
-  margin-top: -4px;
+  margin-top: -5px;
   color: #EFE4E0;
 }
 
 .mainsectiontext {
-  padding: 298px 254px 0;
+  padding: 222px 254px 0;
   font-size: 89px;
   font-family: 'Vollkorn-Medium';
   color: #EFE4E0;
@@ -96,33 +97,32 @@ h1 {
   color: #EFE4E0;
   font-family: 'Vollkorn-Regular';
   padding: 0 0 0 452px;
-  margin-top: -21px;
+  margin-top: -19.5px;
 }
 
 .mainsection {
-  height: 848px;
+  height: 729px;
+  margin-top: 76px;
   background-image: url(../images/mainbox.svg);
-  background-position: top 76px left 90px;
+  background-position: top 0 left 90px;
   background-repeat: no-repeat;
   background-size: 1260px 729px;
 }
 
 .menusection {
-  height: 1314px;
-  width: 1044px;
+  height: 1202px;
+  margin-top: 102px;
   display: flex;
   position: relative;
-  margin-left: 215px;
+  margin-left: 214px;
 }
-
-.darkmenu {
-  position: absolute; 
-  padding: 59px 0 0 0; 
+.darkmenu{
+  position: absolute;
 }
 
 .lightmenu {
   position: absolute; 
-  padding: 176px 30px; 
+  padding: 117px 31px; 
 }
 
 .menuvollk {
@@ -131,7 +131,7 @@ h1 {
   rotate: 7.56deg;
   color: #EFE4E0;
   position: absolute; 
-  padding: 188px 0 0 236.8px;
+  padding: 129px 0 0 233.8px;
 }
 
 .menumenu {
@@ -140,7 +140,7 @@ h1 {
   color: #252525;
   rotate: -7.21deg;
   position: absolute;
-  padding: 303.5px 0 0 184px;
+  padding: 243.5px 0 0 189px;
 
 }
 
@@ -153,17 +153,17 @@ h1 {
 
 .menuh1 {
   position: absolute;
-  padding: 551px 0 0 192px;
+  padding: 491.5px 0 0 197px;
 }
 
 .menuh2 {
   position: absolute;
-  padding: 531px 0 0 494px;
+  padding: 471.5px 0 0 499px;
 }
 
 .menuh3 {
   position: absolute;
-  padding: 815px 0 0 512px;
+  padding: 756px 0 0 516.5px;
 }
 
 .menup1, .menup2, .menup3 {
@@ -175,26 +175,27 @@ h1 {
 
 .menup1 {
   position: absolute;
-  padding: 621px 0 0 225px;
+  padding: 561.5px 0 0 229.5px;
   line-height: 56px;
 }
 
 .menup2 {
   position: absolute;
-  padding: 597px 0 0 506px;
+  padding: 537.5px 0 0 510px;
   line-height: 56px;
 }
 
 .menup3 {
   position: absolute;
-  padding: 879px 0 0 527px;
+  padding: 819.6px 0 0 531.2px;
   line-height: 56px;
 }
 
 .historysection {
-  height: 1553px;
+  height: 1292px;
+  margin-top: 99px;
   background-image: url(../images/histbox.svg);
-  background-position: top 166px left 213px;
+  background-position: top 0 left 213px;
   background-repeat: no-repeat;
   background-size: 1013px 1292px;
   padding: 108px 0 0 212px;
@@ -202,16 +203,37 @@ h1 {
 }
 
 .histh {
-  margin-top: 369px;
-  margin-left: -728px;
+  margin-top: 202px;
+  margin-left: -725px;
 }
 
-.historysection img {
+.historytag {
   position: relative;
   height: 285px;
   width: 256.3px; 
-  margin-top: 91px;
-  margin-left: 721px;
+  margin-top: -76px;
+  margin-left: 720px;
+}
+
+.histp1 {
+  position: absolute;
+  color: #252525;
+  font-family: 'Vollkorn-Regular';
+  font-size: 64px;
+  line-height: 45px;  
+  margin: 22.5px 0 0 -246px;
+  text-align: center;
+}
+
+.histblock {
+  display: flex;
+  flex-direction: column;
+  margin: 355px 0 0 -556px;
+}
+
+.solidhorline1, .solidhorline2, .solidhorline3 {
+  width: 632px;
+  height: 3px;
 }
 
 .histp2, .histp3, .histp4 {
@@ -221,40 +243,33 @@ h1 {
   color: #252525;
 }
 
-.histp1 {
-  position: absolute;
-  color: #252525;
-  font-family: 'Vollkorn-Regular';
-  font-size: 64px;
-  line-height: 45px;  
-  margin: 190px 0 0 -247px;
-  text-align: center;
-}
-
 .histp2 {
-  margin: 585px 0 0 -514px;
+  padding: 60.5px 0px 57px 40.5px;
 }
 
 .histp3 {
-  margin: 834px 0 0 -488px;
+  padding: 60.5px 0 43px 40.5px;
 }
 
 .histp4 {
-  margin: 973px 0 0 -521px;
+  padding: 0px 0 44px 40.5px;
 }
 
 .featuresection {
-  height: 2852px;
+  height: 2792px;
+  margin-top: 100px;
 }
 
 .fh {
-  padding: 39px 0px 100px 327px;
+  padding: 25px 0 95px 327px;
 }
 
 .features {
+  margin-left: 112px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 497px 497px;
+  grid-template-rows: 567px 600px 600px 567px;
+  gap: 70px 223px;
 }
 
 .featuresp {
@@ -264,120 +279,192 @@ h1 {
 }
 
 .block1 {
-  width: 497px;
-  height: 564px;
-  margin-left: 165px;
   background-image: url(../images/cupstroke.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 497px 564px;
+  background-size: 497px 567px;
 }
 .block1 img {
-  margin: 110px 0 0 149px;
+  margin: 112px 0 0 149px;
 }
 .block1 p {
-  margin: 33px 0 0 59px;
+  margin: 32px 0 0 -1px;
+  text-align: center;
+  line-height: 50px;
 } 
-.block2 {
-  width: 448px;
-  height: 400px;
-  margin: 167px 0 0 137px;
 
-}
 .block2 img {
-  margin: -45px 0 0px 67px;
+  margin: 124px 0 0px 91px;
 }
 .block2 p {
-  margin: 45px 0 0 0px;
+  margin: 54px 0 0 24px;
+}
 
-}
-.block3 {
-  width: 445px;
-  height: 332px;
-  margin: 48px 0 0 200px;
-}
 .block3 img {
-  margin: 57px 0 0 104px;
+  margin: 113px 0 0 138px;
 }
 .block3 p {
-  margin: 46px 0 0 9px;
+  margin: 76px 0 0 44px;
 }
+
 .block4 {
-  width: 480px;
-  height: 610px;
-  margin: -41px 0 0 121px;
   background-image: url(../images/boxstroke.svg);
-  background-position: 5px 0;
   background-repeat: no-repeat;
-  background-size: 471px 608px;
+  background-size: 471px 600px;
+  background-position: 12px 0;
 }
 .block4 img {
-  margin: 115px 0 0 110px;
+  margin: 113px 0 0 117px;
 }
 .block4 p {
-  margin: 16px 0 0 23px;
+  margin: 16px 0 0 30px;
 }
+
 .block5 {
-  width: 480px;
-  height: 610px;
-  margin: -52px 0 0 169px;
   background-image: url(../images/boxstroke2.svg);
-  background-position: 9px 6px;
+  background-position: 12.5px 0;
   background-repeat: no-repeat;
-  background-size: 471px 608px;
+  background-size: 471px 600px;
 }
 .block5 img {
-  margin: 173px 0 0 122px;
+  margin: 174px 0 0 126px;
 }
 .block5 p {
-  margin: 32px 0 0 10px;
+  margin: 33px 0 0 -1px;
   text-align: center;
 } 
-.block6 {
-  width: 480px;
-  height: 610px;
-  margin: 25px 0 0 0;
-}
+
 .block6 img {
-  margin: 173px 0 0 10px;
+  margin: 82px 0 0 121px;
 }
 .block6 p {
-  margin: 10px 0 0 10px;
+  margin: 41px 0 0 64px;
 }
-.block7 {
-  width: 637px;
-  height: 674px;
-}
+
 .block7 img {
-  margin: 10px 0 0 10px;
+  margin: 131px 0 0 44px;
 }
 .block7 p {
-  margin: 10px 0 0 10px;
+  margin: 60px 0 0 -2px;
   text-align: center;
 }
+
 .block8 {
-  width: 433px;
-  height: 361px;
-  margin-left: 165px;
   background-image: url(../images/cupstroke.svg);
-  background-position: 10px 10px;
   background-repeat: no-repeat;
-  background-size: 497px 564px;
+  background-size: 497px 567px;
 }
 .block8 img {
-  margin: 10px 0 0 10px;
+  margin: 112px 0 0 80px;
 }
 .block8 p {
-  margin: 10px 0 0 10px;
+  margin: 59px 0 0 67px;
 }
 
-
-
 .langsection {
-  width: 637px;
-  height: 674px;
+  height: 918px;
+  margin-top: 99px;
   background-image: url(../images/langbox.svg);
-  background-position: 10px 10px;
+  background-position: 138px 0px;
   background-repeat: no-repeat;
   background-size: 1164.13px 917.87px;
+  color: #EFE4E0;
+  font-family: 'Vollkorn-Regular';
+}
+
+.langtext {
+  display: flex;
+}
+
+.ltextblock1 {
+  display: flex;
+  flex-direction: column;
+  margin: 301px 0 0 163px;
+}
+
+.langp11 {
+  font-size: 20px;
+  padding: 0 0 47px 0;
+}
+
+.langp12 {
+  font-size: 32px;
+  padding: 0 0 0 0;
+}
+
+.ltextblock2 {
+  display: flex;
+  flex-direction: column;
+  margin: 301px 0 0 0;
+}
+
+.langp21 {
+  font-size: 10px;
+  padding: 0 0 0 0;
+}
+.langp22 {
+  font-size: 8px;
+  padding: 0 0 0 0;
+}
+.langp23 {
+  font-size: 8px;
+  padding: 0 0 0 0;
+}
+.langp24 {
+  font-size: 8px;
+  padding: 0 0 0 0;
+}
+.langp25 {
+  font-size: 8px;
+  padding: 0 0 0 0;
+}
+.langp26 {
+  font-size: 8px;
+  padding: 0 0 0 0;
+}
+
+.ltextblock3 {
+  display: flex;
+  flex-direction: column;
+  margin: 301px 0 0 0;
+}
+
+.langp31 {
+  font-size: 20px;
+  padding: 0 0 0 0;
+}
+.langp32 {
+  font-size: 32px;
+  padding: 0 0 0 0;
+}
+
+.ltextblock4 {
+  display: flex;
+  flex-direction: column;
+  margin: 301px 0 0 0;
+}
+
+.langp41 {
+  font-size: 10px;
+  padding: 0 0 0 0;
+}
+.langp42 {
+  font-size: 8px;
+  padding: 0 0 0 0;
+}
+.langp43 {
+  font-size: 8px;
+  padding: 0 0 0 0;
+}
+.langp44 {
+  font-size: 8px;
+  padding: 0 0 0 0;
+}
+.langp45 {
+  font-size: 8px;
+  padding: 0 0 0 0;
+}
+.langp46 {
+  font-size: 8px;
+  padding: 0 0 0 0;
 }
