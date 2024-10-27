@@ -565,4 +565,16 @@ h1 {
 
 .glyphs { 
   height: 1896px;
+  margin-top: 125px;
 }
+
+.glyphblock1 {
+  height: 351px;
+  color: #EFE4E0;
+  margin-top: 95px;
+  background-image: url(../images/glyphtag1.svg);
+  background-size: 1164px 351px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
