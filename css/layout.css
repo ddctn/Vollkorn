@@ -61,7 +61,6 @@ h2{
 }
 
 nav {
-  width: 1440px;
   height: 78px;
 }
 
@@ -563,7 +562,7 @@ h1 {
   padding: 69px 0 0 119px;
 }
 
-.glyphs { 
+.glyphsection { 
   height: 1896px;
   margin-top: 125px;
 }
@@ -578,3 +577,122 @@ h1 {
   background-repeat: no-repeat;
 }
 
+.licensesection {
+  height: 2477px;
+  margin-top: 100px;
+}
+
+.license1 {
+  height: 1068px;
+  margin-top: 70px;
+  padding-left: 135px;
+  display: flex;
+  color: #EFE4E0;
+}
+.license1 p {
+  font-family: 'Vollkorn-Regular';
+  font-size: 32px;
+  line-height: 37px;
+}
+
+.license1 h4 {
+  font-family: 'Vollkorn-ExtraBold';
+  font-size: 48px;
+}
+
+.liblock1 {
+  width: 517px;
+  height: 981px;
+  margin-top: 112px;
+  background-image: url(../images/jar.svg);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.lih {
+  margin: 327px 0 45px 0;
+}
+
+.li1p2 {
+  margin-top: 646px;
+}
+
+.liblock2 {
+  width: 587px;
+  height: 1068px;
+  margin: 25px 0 0 70px;
+  background-image: url(../images/licup.svg);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.license2 {
+  width: 1440px;
+  height: 1091px; 
+  margin-top: 95px;
+  padding: 52px 0 0 425px;
+  background-image: url(../images/receipt.svg);
+  background-size: 654px 1091px;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #EFE4E0;
+}
+
+.license2 h3 {
+  font-family: 'Vollkorn-SemiBold';
+  font-size: 86px;
+  padding: 0 0 17px 85px;
+}
+
+.license2 p {
+  font-family: 'Vollkorn-Regular';
+  font-size: 30px;
+  line-height: 48px;
+}
+
+.li2block1 {
+  display: flex;
+}
+
+.li2block1 p, .li2block2 p {
+  font-family: 'Vollkorn-Medium';
+  font-size: 45px;
+}
+
+.li2block2 {
+  display: flex;
+}
+
+.license2 img {
+  padding-left: 8px;
+}
+
+footer {
+  height: 185px;
+  background-color: #252525;
+  margin-top: 75px;
+}
+
+.footercontent {
+  width: 1440px;
+  height: 185px;
+
+  font-family: 'Vollkorn-Regular';
+  font-size: 36px;
+  color: #EFE4E0;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 76px;
+}
