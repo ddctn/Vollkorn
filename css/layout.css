@@ -73,14 +73,14 @@ h1 {
   color: #EFE4E0;
 }
 
-.mainsectiontext {
+.firstsectiontext {
   padding: 222px 254px 0;
   font-size: 89px;
   font-family: 'Vollkorn-Medium';
   color: #EFE4E0;
 } 
 
-.mainsectiontext2 {
+.firstsectiontext2 {
   font-size: 24px;
   color: #EFE4E0;
   font-family: 'Vollkorn-Regular';
@@ -88,7 +88,7 @@ h1 {
   margin-top: -19.5px;
 }
 
-.mainsection {
+.firstsection {
   height: 729px;
   margin-top: 76px;
   background-image: url(../images/mainbox.svg);
